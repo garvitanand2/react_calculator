@@ -1,0 +1,40 @@
+.formula-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.formula-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.latex-label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.latex-display {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 768px) {
+  .latex-display {
+    font-size: 0.9rem;
+  }
+
+  .formula-input {
+    font-size: 0.9rem;
+  }
+}
